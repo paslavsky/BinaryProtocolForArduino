@@ -1,0 +1,24 @@
+{
+    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+    "name": "BPA-ESP8266",
+    "description": "Binary Protocol for Arduino (BPA)",
+    "version": "1.0.0",
+    "platforms": [
+        "espressif8266"
+    ],
+    "frameworks": [
+        "arduino"
+    ],
+    "authors": [
+        {
+            "name": "Andrii Paslavskyi",
+            "email": "a.paslavsky@gmail.com",
+            "maintainer": true,
+            "url": "https://github.com/paslavsky"
+        }
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "nrwiersma/ESP8266Scheduler": "^1.1"
+    }
+}
